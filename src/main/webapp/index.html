@@ -7,10 +7,41 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   </head>
   <body>
-    <h2>Exam Exercise Demo</h2>
-    <ul>
-      <li><a href='tableAngular.html'>Angular Version</a></li>
-      <li><a href='tableJQuery.html'>JQuery Version</a></li>
-    </ul>
+      <div class='container'>
+        <h2>Exam Exercise Demo</h2>
+        <ul>
+          <li><a href='tableAngular.html'>Angular Version</a></li>
+          <li><a href='tableJQuery.html'>JQuery Version</a></li>
+        </ul>
+        <div class="col-md4">
+            <h4>Differences between Jquery and Angular</h4>
+            <p>Jquery is simply put a library on top of Javascript. It makes Javascript easier and more pleasant to write.
+            It is not to be confused with Angular though. Angular is a framework that excels in handling two way binding.
+            While Angular would be too huge a framework to implement for simple DOM manipulation, it is exceptional in showing data asynchronously
+            Jquery can do the same, but with a bit more code. The clear benefit of Angular in this example is, that you don't mix Javascript and HTML.
+            It is nicely split up - which can't be said about Jquery, where we have to put html in the Javascript files for it to generate it.</p>
+        </div>
+        <div class="col-md4">
+            <h4>The DOM</h4>
+            <p>DOM stands for Document Object Model.
+            What that basically means is that it treats each HTML, XML or XHTML tag as an object and as a tree.
+            This is what makes it possible for us to target these objects and manipulate them with Javascript.</p>
+        </div>
+        
+        <div class="col-md4">
+            <h4>Benefits of SPA</h4>
+            <p>The benefit of single page applications are that the user will get a much more fluent and comfortable experience if done correctly.
+                That is, since there will be little to almost no loading time, as everything happens asynchronously. 
+            The benefits for us, as programmers is, that we can do more programming and less markup - which is nice.
+            The downside of SPA is SEO - but that's another talk :)</p>
+        </div>
+        
+        <div class="col-md4">
+            <h4>Benefits of REST</h4>
+            <p>The benefit of having an application that exposes the all the data through a REST API is, that it's easy to understand and work with.
+            Another huge benefit is, that the frontend and backend are now completely seperated and decoupled which is really smart, sincethe frontend guy doesn't need to know anything about the backend.
+            The only thing he needs to know are the end-points and what data he gets.</p>
+        </div>
+      </div>
   </body>
 </html>
